@@ -117,9 +117,6 @@ if num == 0 {
 }else {
   print("Native Value")
 }
-
-
-
 /*:
  ### Switch
  */
@@ -130,17 +127,12 @@ default:
   print("Non Zero Value")
 }
 
-
-
-
-
 /*:
  ### FOR Loop / FOR-IN Loop
  */
 for _ in 0..<10 {
  // print(index)
 }
-
 
 let lists = ["One", "Two", "Three"]
 
@@ -173,11 +165,8 @@ for index in 0...10 {
   if index == 3 {
     continue
   }
-  
   print(index)
 }
-
-
 
 /*:
  ### Break
@@ -202,6 +191,7 @@ case 1:
 default:
   print("Non Zero Value")
 }
+
 /*:
  ## 5. Demo
  */
